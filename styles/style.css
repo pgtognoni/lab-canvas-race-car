@@ -1,6 +1,9 @@
 body {
   padding: 0;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 .game-intro {
@@ -33,6 +36,6 @@ body button {
 }
 
 #game-board {
-    float: left;
-    padding: 20px 0px;
+  float: left;
+  padding: 20px 0px;
 }
